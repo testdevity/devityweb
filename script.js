@@ -9,7 +9,7 @@ var t;
 
 var anim = function() {
   inc++;
-  if (inc % 20 === 0 && out < str.length) {
+  if (inc % 5 === 0 && out < str.length) {
     $('anim').appendChild(document.createTextNode(str[out]));
     out++;
   } else if (out >= str.length) {
