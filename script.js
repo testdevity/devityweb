@@ -9,7 +9,7 @@ var t;
 
 var anim = function() {
   inc++;
-  if (inc % 15 === 0 && out < str.length) {
+  if (inc % 20 === 0 && out < str.length) {
     $('anim').appendChild(document.createTextNode(str[out]));
     out++;
   } else if (out >= str.length) {
@@ -22,8 +22,4 @@ var anim = function() {
 t = setInterval(anim, 10);
 $('anim').innerHTML = '';
 
-//Do it again
-function reload() {
-  window.location.href = window.location.href;
-}
-document.getElementById('btn').onclick = reload;
+
