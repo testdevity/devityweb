@@ -3,7 +3,7 @@ var $ = function(id) {
 };
 var inc = 0;
 var out = 0;
-var str = 'devity.tk';
+var str = 'coming soon!';
 var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@$%&';
 var t;
 
