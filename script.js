@@ -3,7 +3,7 @@ var $ = function(id) {
 };
 var inc = 0;
 var out = 0;
-var str = 'coming soon';
+var str = 'Coming soon';
 var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@$%&';
 var t;
 
